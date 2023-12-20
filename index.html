@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
   </head>
   <body>
     <nav id="desktop-nav">
@@ -45,7 +46,7 @@
         <h1 class="title">Badrul Borhanudin</h1>
         <p class="section__text__p2">Coding Bootcamp Student, University of Adelaide</p>
         <div class="btn-container">
-          <button class="btn btn-color" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+          <button class="btn btn-color" onclick="window.open('./assets/resume.pdf')">Download CV</button>
           <button class="btn btn-color" onclick="location.href='./#contact'">Contact Info</button>
         </div>
         <div id="socials-container">
@@ -71,7 +72,7 @@
               <p>Certificate III in IT <br/> TAFE SA</p>
             </div>
           </div>
-          <div class="text-container">
+          <div class="details-container">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia, cumque laudantium numquam ad assumenda et harum omnis! Nulla nesciunt est pariatur modi mollitia in accusantium reprehenderit eum. Obcaecati beatae omnis modi quod placeat provident laboriosam voluptatem? Non unde iure quibusdam, rem veritatis, repudiandae culpa, officia voluptatem a modi laborum.</p>
           </div>
         </div>
@@ -172,43 +173,46 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Module 01 Challenge" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Module 01 Challenge</h2>
+            <div class="btn-container">
+            <button class="btn btn-color project-btn" onclick="location.href='https://github.com/badrulborhanudin'">GitHub
+            </button>
+            <button class="btn btn-color project-btn" onclick="location.href='https://badrulborhanudin.github.io/01-module-challenge'">Live Demo
+            </button>
+            </div>
+          </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-1.png" alt="Module 01 Challenge" class="project-img">
+          <img src="./assets/project-1.png" alt="Module 01 Mini Project" class="project-img"/>
           </div>
-          <h2 class="experience-sub-title project-title">Module 01 Challenge</h2>
-          <div class="btn-container">
-            <button class="btn btn-color project-btn" onclick="location.href='https://github.com/badrulborhanudin'">GitHub</button>
-            <button class="btn btn-color project-btn" onclick="location.href='https://badrulborhanudin.github.io/01-module-challenge'">Live Demo</button>
-          </div>
-        </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img src="./assets/project-1.png" alt="Module 01 Mini Project" class="project-img">
-        </div>
-        <h2 class="experience-sub-title project-title">Module 01 Mini Project</h2>
+          <h2 class="experience-sub-title project-title">Module 01 Mini Project</h2>
         <div class="btn-container">
-          <button class="btn btn-color project-btn" onclick="location.href='https://github.com/badrulborhanudin'">GitHub</button>
-          <button class="btn btn-color project-btn" onclick="location.href='https://badrulborhanudin.github.io/01-module-challenge'">Live Demo</button>
+          <button class="btn btn-color project-btn" onclick="location.href='https://github.com/badrulborhanudin'">GitHub
+          </button>
+          <button class="btn btn-color project-btn" onclick="location.href='https://badrulborhanudin.github.io/01-module-challenge'">Live Demo
+          </button>
         </div>
       </div>
-      </div>
-      </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img src="./assets/email.png" alt="Email icon" class="icon email-icon">
+          <img src="./assets/email.png" alt="Email icon" class="icon email-icon"/>
           <p><a href="mailto:badrulborhanudin@gmail.com">badrulborhanudin@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
           <p><a href="https://linkedin.com">LinkedIn</a></p>
         </div>
       </div>
+
     </section>
     <footer>
       <nav>
@@ -221,8 +225,9 @@
           </ul>
         </div>
       </nav>
+      <h3 class="owner">Made with ❤️️ by Badrul Borhanudin</h3>
       <p>Copyright &#169; 2023 Badrul Borhanudin. All Rights Reserved</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
