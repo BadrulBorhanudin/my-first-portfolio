@@ -273,6 +273,10 @@ section {
     cursor: default;
 }
 
+.fun-fact {
+    text-align: justify;
+}
+
 .arrow {
     position: absolute;
     right: -5rem;
@@ -319,8 +323,8 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 5rem;
-    justify-content: space-around;
+    gap: 8rem;
+    justify-content:space-around;
 }
 
 article {
@@ -345,10 +349,18 @@ article .icon {
     background: rgb(250, 250, 250);
 }
 
+.project-container {
+    overflow: scroll;
+}
+
 .project-img {
-    border-radius: 1rem;
-    width: 50%;
-    height: 50%px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.project-img:hover {
+    transition:0.5s;
+    transform: scale(250%);
 }
 
 .project-title {
@@ -411,10 +423,6 @@ footer {
     margin: 0 1rem;
 }
 
-footer p {
-    text-align: center;
-}
-
-.owner {
+footer p, .owner {
     text-align: center;
 }
