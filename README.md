@@ -51,4 +51,4 @@ The following animation shows the web application's appearance and functionality
 ## Notes
 
 * [Click here for the URL of the deployed application.](https://badrulborhanudin.github.io/portfolio)
-* [Click here fo the URL of the GitHub repository, with a unique name and a README that describes this project.](https://github.com/BadrulBorhanudin/portfolio)
+* [Click here for the URL of the GitHub repository, with a unique name and a README that describes this project.](https://github.com/BadrulBorhanudin/portfolio)
